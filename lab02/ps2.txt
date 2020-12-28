@@ -1,0 +1,9 @@
+Theorem: If it is possible to buy x,
+x+1,...,x+5setsofMcNuggets,for some x ,
+then it is possible to buy any number of McNuggets >= x, 
+given that McNuggets come in 6, 9 and 20 packs.
+
+It is possible because the smallest pack of McNuggets that can be bought is 6.
+Therefore, if there is an amount x with 5 consecutive numbers {E(x)} that can be summed by some combination 
+of 6, 9, and 20 then the next set of 6 numbers 
+is the same as the previous set with an additional 6 mcnugget pack. {E(y) = E(x) + 6}
